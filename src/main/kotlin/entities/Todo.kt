@@ -13,7 +13,6 @@ data class Todo(
     var title: String,
     var description: String,
     var isDone: Boolean = false,
-    var urgency: String = "medium", // Tambahkan ini
     var cover: String?,
 
     @Contextual
